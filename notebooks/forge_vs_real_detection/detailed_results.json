@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-11-08 02:39:56",
+  "dataset": {
+    "total_images": 540,
+    "fake_count": 270,
+    "real_count": 270,
+    "train_size": 432,
+    "val_size": 54,
+    "test_size": 54
+  },
+  "models": {
+    "efficientnet": {
+      "accuracy": 0.9259259259259259,
+      "auc": 0.9986282578875172,
+      "fake_accuracy": 0.8518518518518519,
+      "real_accuracy": 1.0
+    },
+    "resnet50": {
+      "accuracy": 0.9629629629629629,
+      "auc": 0.9958847736625515,
+      "fake_accuracy": 0.9259259259259259,
+      "real_accuracy": 1.0
+    },
+    "mobilenet": {
+      "accuracy": 0.7037037037037037,
+      "auc": 0.8573388203017833,
+      "fake_accuracy": 0.8888888888888888,
+      "real_accuracy": 0.5185185185185185
+    },
+    "ensemble": {
+      "accuracy": 0.9444444444444444,
+      "auc": 1.0,
+      "fake_accuracy": 0.8888888888888888,
+      "real_accuracy": 1.0
+    }
+  },
+  "per_person_results": {
+    "person_1": {
+      "overall_accuracy": 86.66666666666667,
+      "forge_accuracy": 73.33333333333333,
+      "real_accuracy": 100.0,
+      "threshold": 0.35
+    },
+    "person_2": {
+      "overall_accuracy": 96.66666666666667,
+      "forge_accuracy": 93.33333333333333,
+      "real_accuracy": 100.0,
+      "threshold": 0.39999999999999997
+    },
+    "person_3": {
+      "overall_accuracy": 88.33333333333333,
+      "forge_accuracy": 76.66666666666667,
+      "real_accuracy": 100.0,
+      "threshold": 0.39999999999999997
+    },
+    "person_4": {
+      "overall_accuracy": 100.0,
+      "forge_accuracy": 100.0,
+      "real_accuracy": 100.0,
+      "threshold": 0.44999999999999996
+    },
+    "person_5": {
+      "overall_accuracy": 80.0,
+      "forge_accuracy": 60.0,
+      "real_accuracy": 100.0,
+      "threshold": 0.35
+    },
+    "person_6": {
+      "overall_accuracy": 100.0,
+      "forge_accuracy": 100.0,
+      "real_accuracy": 100.0,
+      "threshold": 0.3
+    },
+    "person_7": {
+      "overall_accuracy": 83.33333333333334,
+      "forge_accuracy": 66.66666666666666,
+      "real_accuracy": 100.0,
+      "threshold": 0.35
+    },
+    "person_8": {
+      "overall_accuracy": 98.33333333333333,
+      "forge_accuracy": 96.66666666666667,
+      "real_accuracy": 100.0,
+      "threshold": 0.5999999999999999
+    },
+    "person_9": {
+      "overall_accuracy": 98.33333333333333,
+      "forge_accuracy": 96.66666666666667,
+      "real_accuracy": 100.0,
+      "threshold": 0.3
+    }
+  },
+  "person_thresholds": {
+    "person_1": 0.35,
+    "person_2": 0.39999999999999997,
+    "person_3": 0.39999999999999997,
+    "person_4": 0.44999999999999996,
+    "person_5": 0.35,
+    "person_6": 0.3,
+    "person_7": 0.35,
+    "person_8": 0.5999999999999999,
+    "person_9": 0.3
+  }
+}

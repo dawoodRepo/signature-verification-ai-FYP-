@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-11-08 03:47:29",
+  "accuracy": 1.0,
+  "top3_accuracy": 1.0,
+  "per_person_accuracy": {
+    "person_1": 100.0,
+    "person_2": 100.0,
+    "person_3": 100.0,
+    "person_4": 100.0,
+    "person_5": 100.0,
+    "person_6": 100.0,
+    "person_7": 100.0,
+    "person_8": 100.0,
+    "person_9": 100.0
+  },
+  "model_name": "EfficientNetB3",
+  "total_parameters": 11712312
+}

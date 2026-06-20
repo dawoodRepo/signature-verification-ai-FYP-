@@ -1,0 +1,23 @@
+# Models (too large for GitHub)
+backend/signature_system/signature_models/*.h5
+backend/signature_system/signature_person_id_simple/*.h5
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+frontend/my-project/node_modules/
+frontend/my-project/dist/
+
+# Uploads (temp runtime files)
+backend/signature_system/app/uploads/*
+!backend/signature_system/app/uploads/.gitkeep
+
+# Env files
+.env
+
+#dataset images
+dataset/*/real/
+dataset/*/forge/
